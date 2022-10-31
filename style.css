@@ -49,3 +49,30 @@ a[href] {
 #eren-item {
     border-radius: 50%;
 }
+
+.navcontainer {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navitem {
+    padding:10px;
+    background-color: #dcdcdc;
+}
+
+.image-container {
+    float: left;
+    padding: 10px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+}

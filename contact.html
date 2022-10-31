@@ -11,37 +11,33 @@
     <header>
         <h1>Naffy's Weblog</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href=index.html>Blog</a></li>
-            <li><a href=about.html>About</a></li>
-            <li><a href=contact.html>Contact</a></li>
+    <nav class="navcontainer">
+        <ul class="navbar">
+            <li class="navitem"><a href=index.html>Blog</a></li>
+            <li class="navitem"><a href=about.html>About</a></li>
+            <li class="navitem"><a href=contact.html>Contact</a></li>
         </ul>
     </nav>
     <section class="first-section">
         <h2>Contact Form</h2>
-        <form>
-            <label>Name:
+        <form class="contact-form">
+            <label class="form-item">Name:
                 <input type="text">
             </label>
-            <br>
-            <label>Email Address:
+            <label class="form-item">Email Address:
                 <input type="text">
             </label>
-            <br>
-            <label>Reason for contact:
+            <label class="form-item">Reason for contact:
                 <select id="reasons" name="reasons">
                   <option value="hi">Saying hi</option>
                   <option value="contractor">Looking for a contractor</option>
                   <option value="interview">Interested in interview</option>
                 </select> 
             </label>
-            <br>
-            <label>Comments:
+            <label class="form-item">Comments:
                 <input type="text">
             </label>
-            <br>
-            <button>Submit form</button>
+            <button class="form-item">Submit form</button>
         </form>
     </section>
 </body>
