@@ -50,6 +50,14 @@ a[href] {
     border-radius: 50%;
     float: left;
     padding: 10px;
+    width: 20%;
+}
+
+.picture-item {
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+    width: 30%;
 }
 
 .navcontainer {
@@ -76,5 +84,15 @@ a[href] {
 
 .contact-form {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+    .contact-form {
+        flex-direction: column;
+    }
+    .nav-item {
+        padding:5px;
+    }
 }
